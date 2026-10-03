@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071b2e">
+  <meta name="description" content="MedRaahi — student-built study resources for MBBS abroad and FMGE preparation.">
+  <title>MedRaahi — Your MBBS Study Companion</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="MedRaahi home"><span class="brand-mark">M<span>+</span></span><span>Med<span class="brand-light">Raahi</span><small>STUDENT-LED • GLOBAL MEDICINE</small></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">☰</button>
+    <nav id="navLinks"><a href="#library">Study library</a><a href="#papers">Question papers</a><a href="#about">Our story</a><a class="nav-cta" href="#contribute">Contribute a resource ↗</a></nav>
+  </header>
+
+  <main>
+    <section class="hero wrap">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="pulse"></span> MADE BY A STUDENT, FOR STUDENTS</div>
+        <h1>Your medical journey.<br><span>One resource at a time.</span></h1>
+        <p class="hero-lede">A student-built corner of the internet for MBBS abroad, FMGE preparation, study notes and question papers — created by an Indian medical student in Russia.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#library">Explore the library <span>↘</span></a><a class="button button-quiet" href="#about">Meet MedRaahi</a></div>
+        <div class="hero-note"><span class="avatar-stack"><i>🩺</i><i>📚</i><i>🌍</i></span><span>For the long nights, tough topics & big goals.</span></div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="medical-card card-main"><div class="card-top"><span class="tiny-label">YOUR STUDY SPACE</span><span class="status-dot">● LIVE LIBRARY</span></div><div class="book-illustration"><div class="book book-back"></div><div class="book book-mid"></div><div class="book book-front"><span>MED</span><strong>NOTES</strong><small>LEARN • REVISE • REPEAT</small></div><div class="cross-badge">+</div></div><div class="card-bottom"><div><strong>Learn at your pace.</strong><small>Build a routine that works for you.</small></div><span class="arrow-round">↗</span></div></div>
+        <div class="float-chip chip-top">🧠 <span><b>Understand</b><small>Concepts first</small></span></div><div class="float-chip chip-bottom">📄 <span><b>Practise</b><small>One paper at a time</small></span></div>
+      </div>
+    </section>
+
+    <section class="stats-strip wrap reveal"><div><strong>01</strong><span>Student-first mindset</span></div><div><strong>∞</strong><span>Curiosity encouraged</span></div><div><strong>🌐</strong><span>Built for learners everywhere</span></div></section>
+
+    <section class="section wrap" id="library">
+      <div class="section-heading reveal"><div><div class="eyebrow">THE RESOURCE LIBRARY</div><h2>Find what you need<br><span>to keep moving.</span></h2></div><p>Explore the starter library below. As resources are added, use search and filters to find your next study session.</p></div>
+      <div class="library-tools reveal"><label class="search-box"><span>⌕</span><input id="searchInput" type="search" placeholder="Search subjects, notes, topics…" aria-label="Search resources"></label><div class="filter-row" id="filterRow"><button class="filter active" data-filter="All">All resources</button><button class="filter" data-filter="Notes">Notes</button><button class="filter" data-filter="Books & PDFs">Books & PDFs</button><button class="filter" data-filter="FMGE">FMGE</button></div></div>
+      <div class="resource-grid" id="resourceGrid"></div>
+      <p class="library-footnote"><span>ⓘ</span> This is the starter catalogue. Add your own shareable resources in <code>resources.js</code> before publishing.</p>
+    </section>
+
+    <section class="exam-band" id="papers"><div class="wrap exam-inner"><div class="exam-art reveal"><div class="paper-sheet"><span class="paper-stamp">PRACTICE</span><div class="paper-line long"></div><div class="paper-line"></div><div class="paper-line mid"></div><div class="mcq"><b>01.</b><span>Read carefully. Think clinically.</span></div><div class="mcq"><b>02.</b><span>Review why each option fits.</span></div><div class="paper-line long"></div><div class="paper-line mid"></div></div><div class="pencil">✎</div></div><div class="exam-copy reveal"><div class="eyebrow">PRACTICE WITH PURPOSE</div><h2>Question papers are<br><span>part of the journey.</span></h2><p>Build exam confidence through consistent practice, topic review and reflection. Past papers and answer keys will be listed here as they are added.</p><a class="button button-light" href="#library">Browse study resources ↗</a><small class="notice-light">Always verify exam patterns and dates through official exam authorities.</small></div></div></section>
+
+    <section class="section wrap story-section" id="about"><div class="story-copy reveal"><div class="eyebrow">A LITTLE ABOUT US</div><h2>From Russia, with<br><span>student solidarity.</span></h2><p>MedRaahi began with a simple thought: studying medicine abroad can feel overwhelming, and finding well-organised learning resources shouldn't make it harder.</p><p>Built by an Indian medical student living in Russia, this project aims to bring useful notes, legally shareable PDFs and question-paper resources together in one friendly place.</p><div class="signature"><span class="signature-mark">M+</span><span><b>The MedRaahi idea</b><small>Learn together. Grow together.</small></span></div></div><div class="story-quote reveal"><div class="quote-mark">“</div><p>You don't have to figure out the whole journey today. Just take the next useful step.</p><div class="quote-line"></div><span>YOUR STUDY COMPANION</span><div class="quote-doodle">✳</div></div></section>
+
+    <section class="contribute-section" id="contribute"><div class="wrap contribute-inner reveal"><div><div class="eyebrow">HELP THE LIBRARY GROW</div><h2>Have a resource<br>worth sharing?</h2><p>Suggest a topic, report a broken link or contribute a resource you have permission to distribute.</p></div><a class="button button-primary" href="mailto:hello@medraahi.example?subject=MedRaahi%20resource%20suggestion">Suggest a resource ↗</a></div></section>
+  </main>
+  <footer><div class="wrap footer-inner"><a class="brand footer-brand" href="#"><span class="brand-mark">M<span>+</span></span><span>Med<span class="brand-light">Raahi</span><small>STUDENT-LED • GLOBAL MEDICINE</small></span></a><p>Made with care for medical students everywhere.</p><div class="footer-links"><a href="#library">Library</a><a href="#papers">Question papers</a><a href="#about">About</a></div></div><div class="wrap legal">Independent educational project. Not affiliated with any university or exam authority. Medical content should be cross-checked with trusted textbooks and official guidance. Upload only material you have the right to share. © <span id="year"></span> MedRaahi.</div></footer>
+  <script src="resources.js"></script><script src="script.js"></script>
+</body>
+</html>
